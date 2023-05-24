@@ -9,3 +9,12 @@ repos:
       types: [python]
       pass_filenames: false
       always_run: true
+      verbose: true
+
+   -  id: funit
+      name: funit
+      entry: run_funit.sh
+      language: script
+      types: [python]
+      always_run: true
+      verbose: true
